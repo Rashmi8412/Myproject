@@ -1,0 +1,24 @@
+package com.rashmitech.corejava.wrapper;
+
+public class Autoboxingandunboxing {
+
+	public static void main(String[] args) {
+		int i=10;
+		m1(i);
+		int i1=20;
+		m2(i1);
+
+	}
+
+	private static void m2(int i) {
+		System.out.println(i);
+		
+	}
+
+	private static void m1(Integer i1) {
+		System.out.println(i1.doubleValue());
+		
+	}
+
+}
+//10.0,20
