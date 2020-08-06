@@ -1,0 +1,15 @@
+package com.rashmitech.exceptiondemo;
+
+public class StringException {
+
+	public static void main(String[] args) {
+		String s="Hello";
+		System.out.println(s.charAt(8));
+
+	}
+
+}
+//Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 8
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:44)
+	at java.base/java.lang.String.charAt(String.java:692)
+	at com.rashmitech.exceptiondemo.StringException.main(StringException.java:7)

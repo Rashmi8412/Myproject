@@ -1,0 +1,17 @@
+package com.rashmitech.exceptiondemo;
+
+public class NullpointerException {
+	
+	public void greet() {
+		System.out.println("hello world!!!");
+	}
+
+	public static void main(String[] args) {
+		NullpointerException npe=null;
+		npe.greet();
+
+	}
+
+}
+///Exception in thread "main" java.lang.NullPointerException
+	at com.rashmitech.exceptiondemo.NullpointerException.main(NullpointerException.java:11)

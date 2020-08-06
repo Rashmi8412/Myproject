@@ -1,0 +1,17 @@
+package com.rashmitech.exceptiondemo;
+
+public class NumberformatException {
+
+	public static void main(String[] args) {
+		int age=Integer.parseInt(args[0]);
+		System.out.println("Age="+age);
+
+	}
+	}
+//Exception in thread "main" java.lang.NumberFormatException: For input string: "shalu"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at com.rashmitech.exceptiondemo.NumberformatException.main(NumberformatException.java:6)
+
+
